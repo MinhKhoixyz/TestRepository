@@ -16,7 +16,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: maven.
+          cache: maven
       - name: Khoi tao va chay Unit Test
         run: mvn clean verify
 
@@ -30,7 +30,7 @@ jobs:
       #2
       #       git add .github/workflows/main.yml
       #       git commit -m "Add CI workflow"
-      #       git push origi master
+      #       git push origin master
 
 
     #Push file thuong
